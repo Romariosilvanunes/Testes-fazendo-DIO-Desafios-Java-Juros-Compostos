@@ -1,18 +1,22 @@
-## Getting Started
+# Cálculo de Juros Compostos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Desafio DIO
+Imagine que você está desenvolvendo um aplicativo para um banco que deseja calcular os juros compostos de um investimento. Seu objetivo é criar uma função que receba três parâmetros: o valor inicial do investimento, a taxa de juros anual e o período de tempo em anos. A função deve calcular e retornar o valor final do investimento após o período determinado, levando em consideração os juros compostos.
 
-## Folder Structure
+## Entrada
+A função deve receber os seguintes parâmetros:
 
-The workspace contains two folders by default, where:
+- `valor_inicial`: um número inteiro ou decimal representando o valor inicial do investimento.
+- `taxa_juros`: um número decimal representando a taxa de juros anual. Por exemplo, se a taxa for de 5%, o valor passado será 0.05.
+- `periodo`: um número inteiro representando a quantidade de anos do investimento.
+## Saída
+A função deve retornar o valor final do investimento após o período determinado, considerando os juros compostos. O valor final deve ser arredondado para duas casas decimais.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Exemplos
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+| Entrada | Saída |
+| --- | --- |
+| 5000<br>0.08<br>5 | Valor final do investimento: R$ 7346.64 |
+| 1000<br>0.06<br>3 | Valor final do investimento: R$ 1191.02 |
+| 20000<br>0.04<br>10 | Valor final do investimento: R$ 29604.89 |
